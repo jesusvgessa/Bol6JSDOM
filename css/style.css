@@ -1,0 +1,56 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* Header */
+
+header {
+    background-color: orange;
+    color: white;
+    font-family: consolas;
+    font-size: xx-large;
+    height: 3em;
+}
+
+header p {
+    text-align: center;
+    padding-top: 0.8em;
+}
+
+
+/* Article */
+
+article {
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+article a {
+    color: black;
+    display: table-row;
+    font-family: consolas;
+    font-size: larger;
+    line-height: 3em;
+    transition: all ease-in-out 700ms;
+}
+
+article a:hover {
+    color: orange;
+}
+
+
+/* Footer */
+
+footer {
+    align-items: center;
+    background-color: rgb(46, 46, 46);
+    bottom: 0;
+    color: #929292;
+    display: flex;
+    height: 10%;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
